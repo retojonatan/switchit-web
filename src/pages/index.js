@@ -1,7 +1,6 @@
-import * as React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
-
+import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 
@@ -9,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <h1>Hola mundo</h1>
-    <p>Este es un sitio de Gatsby.</p>
+    <p>Este es un sitio desarrollado con Gatsby.</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}

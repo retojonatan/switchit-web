@@ -1,42 +1,64 @@
-import * as React from "react";
-import PropTypes from "prop-types";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
+import * as React from "react";
+import { Button, Nav, Navbar } from "react-bootstrap";
+import Menu from "./menu";
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header
     style={{
-      background: `#333`,
-      marginBottom: `1.45rem`,
+      background: `var(--sw-dark)`,
+      marginBottom: `1.15rem`,
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
+    <>
+      <Navbar
+        collapseOnSelect
+        bg="dark"
+        expand="sm"
+        fixed="top"
+        variant="dark"
+        className="py-1"
+      >
+        <Navbar.Brand
+          as="div"
           style={{
-            color: `white`,
-            textDecoration: `none`,
+            padding: "0 .5rem",
+            lineHeight: "0",
           }}
         >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+          <Link to="/">
+            <StaticImage
+              src="../images/gatsby-icon.png"
+              width={100}
+              height={25}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Logo switchit"
+            />
+          </Link>
+        </Navbar.Brand>
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          style={{ fontSize: ".75rem", padding: ".25rem .5rem" }}
+        />
+        <Navbar.Collapse>
+          <Nav className="mr-auto">
+            <Menu />
+          </Nav>
+          <Button
+            className="border-0 py-0 px-3 ms-auto"
+            style={{ backgroundColor: "var(--sw-green)", borderRadius: "50px" }}
+            size="sm"
+          >
+            <Link as="span" to="/">
+              Login
+            </Link>
+          </Button>
+        </Navbar.Collapse>
+      </Navbar>
+    </>
   </header>
 );
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-  siteTitle: ``,
-};
 
 export default Header;

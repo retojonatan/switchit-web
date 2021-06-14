@@ -69,7 +69,9 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link rel="stylesheet" href="https://use.typekit.net/ywr2qvf.css"></link>
+    </Helmet>
   );
 }
 
