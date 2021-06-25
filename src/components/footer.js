@@ -9,10 +9,17 @@ export default class Footer extends Component {
       <>
         <Container fluid>
           <Row>
-            <Col sm md={6} style={{ backgroundColor: `var(--sw-dark)` }}>
+            <Col
+              xs={{ order: "last" }}
+              md={{ order: 1, span: 6 }}
+              style={{ backgroundColor: `var(--sw-dark)` }}
+            >
               <ContactInfo />
             </Col>
-            <Col sm md={6} style={{ backgroundColor: `var(--sw-gray)` }}>
+            <Col
+              md={{ order: 2, span: 6 }}
+              style={{ backgroundColor: `var(--sw-gray)` }}
+            >
               <ContactForm />
             </Col>
           </Row>
