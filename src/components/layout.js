@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import { graphql, useStaticQuery } from "gatsby";
 import PropTypes from "prop-types";
 import * as React from "react";
@@ -20,13 +19,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || ``} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `1.5rem 1.15rem`,
-        }}
-      >
+      <div>
         <main>{children}</main>
       </div>
       <footer
