@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import { Button, Nav, Navbar } from "react-bootstrap";
-import Menu from "./menu";
+import NavMenu from "./navMenu";
 
 const Header = () => (
   <header
@@ -44,7 +44,7 @@ const Header = () => (
         />
         <Navbar.Collapse>
           <Nav className="mr-auto">
-            <Menu />
+            <NavMenu />
           </Nav>
           <Button
             className="border-0 py-0 px-3 ms-auto"

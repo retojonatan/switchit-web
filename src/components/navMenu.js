@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import React, { Component } from "react";
 import { Nav } from "react-bootstrap";
 
-export default class Menu extends Component {
+export default class NavMenu extends Component {
   render() {
     return (
       <>

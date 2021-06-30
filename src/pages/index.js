@@ -7,6 +7,12 @@ import Seo from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
+    <section id="hero">
+      <div className="hero">
+        <h1 className="fw-bold">Soluciones</h1>
+        <span>360</span>
+      </div>
+    </section>
     <h1>Hola mundo</h1>
     <p>Este es un sitio desarrollado con Gatsby.</p>
     <StaticImage
