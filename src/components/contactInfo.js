@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "gatsby";
 import React, { Component } from "react";
 
-export default class contactInfo extends Component {
+export default class ContactInfo extends Component {
   render() {
     const styleRedes = {
       borderTopLeftRadius: `30px`,
@@ -39,7 +39,6 @@ export default class contactInfo extends Component {
             Encontranos,
           </h2>
           <h3
-            className="text-cyan"
             style={{
               fontWeight: `600`,
               color: `var(--sw-light-green)`,

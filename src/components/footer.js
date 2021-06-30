@@ -7,9 +7,10 @@ export default class Footer extends Component {
   render() {
     return (
       <>
-        <Container fluid>
-          <Row>
+        <Container fluid className="h-100">
+          <Row className="h-100">
             <Col
+              className="d-flex align-items-center"
               xs={{ order: "last" }}
               md={{ order: 1, span: 6 }}
               style={{ backgroundColor: `var(--sw-dark)` }}

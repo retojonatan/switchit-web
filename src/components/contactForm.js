@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Button, Form } from "react-bootstrap";
 
-export default class contactForm extends Component {
+export default class ContactForm extends Component {
   render() {
     const formSwitchit = {
       borderRadius: `20px`,

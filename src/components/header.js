@@ -18,7 +18,7 @@ const Header = () => (
         expand="sm"
         fixed="top"
         variant="dark"
-        className="py-1"
+        className="p-3"
       >
         <Navbar.Brand
           as="div"
