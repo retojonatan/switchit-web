@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import React, { Component } from "react";
 import { Button, Container } from "react-bootstrap";
+import Box from "./box";
 import * as serviceStyle from "./servicios.module.css";
 
 export default class Servicios extends Component {
@@ -28,14 +29,44 @@ export default class Servicios extends Component {
             </Link>
           </Button>
         </div>
-        <StaticImage
-          src="../images/icons/desarrollo.svg"
-          width={300}
-          quality={70}
-          formats={["AUTO", "WEBP", "AVIF"]}
-          alt="icono"
-          style={{ marginBottom: `1.45rem` }}
-        />
+        <div className="d-flex row justify-content-center">
+          <div className="col-3">
+            <Box title="desarrollo">
+              <StaticImage
+                src="../images/icons/desarrollo.svg"
+                width={150}
+                quality={70}
+                formats={["AUTO", "WEBP", "AVIF"]}
+                alt="icono de desarrollo"
+                style={{ marginBottom: "1.45rem" }}
+              />
+            </Box>
+          </div>
+          <div className="col-3">
+            <Box title="desarrollo">
+              <StaticImage
+                src="../images/icons/desarrollo.svg"
+                width={150}
+                quality={70}
+                formats={["AUTO", "WEBP", "AVIF"]}
+                alt="icono de desarrollo"
+                style={{ marginBottom: "1.45rem" }}
+              />
+            </Box>
+          </div>
+          <div className="col-3">
+            <Box title="desarrollo">
+              <StaticImage
+                src="../images/icons/desarrollo.svg"
+                width={150}
+                quality={70}
+                formats={["AUTO", "WEBP", "AVIF"]}
+                alt="icono de desarrollo"
+                style={{ marginBottom: "1.45rem" }}
+              />
+            </Box>
+          </div>
+        </div>
       </Container>
     );
   }
