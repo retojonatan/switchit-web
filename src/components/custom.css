@@ -53,7 +53,7 @@ a {
 }
 a:active,
 a:hover {
-  color: #85dac6;
+  color: var(--sw-light-green);
   outline-width: 0;
   text-decoration: none;
 }
