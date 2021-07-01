@@ -1,5 +1,11 @@
 .box {
   width: 200px;
+  height: 200px;
   -webkit-box-shadow: 2px 2px 12px 4px #c2c2c2;
   box-shadow: 2px 2px 12px 4px #c2c2c2;
+  text-align: center;
+}
+.box img {
+  height: 100px;
+  width: 100px;
 }

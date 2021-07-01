@@ -34,11 +34,10 @@ export default class Servicios extends Component {
             <Box title="desarrollo">
               <StaticImage
                 src="../images/icons/desarrollo.svg"
-                width={150}
                 quality={70}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="icono de desarrollo"
-                style={{ marginBottom: "1.45rem" }}
+                style={{ marginBottom: "1rem" }}
               />
             </Box>
           </div>
@@ -46,11 +45,11 @@ export default class Servicios extends Component {
             <Box title="desarrollo">
               <StaticImage
                 src="../images/icons/desarrollo.svg"
-                width={150}
+                objectFit="contain"
                 quality={70}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="icono de desarrollo"
-                style={{ marginBottom: "1.45rem" }}
+                style={{ marginBottom: "1rem" }}
               />
             </Box>
           </div>
@@ -58,11 +57,10 @@ export default class Servicios extends Component {
             <Box title="desarrollo">
               <StaticImage
                 src="../images/icons/desarrollo.svg"
-                width={150}
                 quality={70}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="icono de desarrollo"
-                style={{ marginBottom: "1.45rem" }}
+                style={{ marginBottom: "1rem" }}
               />
             </Box>
           </div>
