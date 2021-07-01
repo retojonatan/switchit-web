@@ -1,0 +1,20 @@
+.title {
+  font-weight: 700;
+  color: var(--sw-green);
+}
+.subtitle {
+  line-height: 0.5;
+  font-weight: 700;
+}
+.paragraph {
+  margin-top: 1.75rem;
+}
+.meetBtn {
+  border: 0;
+  margin: 1.5rem auto;
+  background-color: var(--sw-green);
+  border-radius: 50px;
+}
+.meetBtn:hover {
+  background-color: var(--sw-green);
+}
