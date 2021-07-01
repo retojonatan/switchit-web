@@ -1,11 +1,12 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
+import * as boxStyle from "./box.module.css";
 
 export default class Box extends Component {
   render() {
     const { title, children } = this.props;
     return (
-      <div>
+      <div className={boxStyle.box}>
         {children}
         <h3>{title}</h3>
       </div>
