@@ -33,7 +33,7 @@ export default class Servicios extends Component {
           <div className="col-3">
             <Box title="desarrollo">
               <StaticImage
-                src="../images/icons/desarrollo.svg"
+                src="../images/gatsby-astronaut.png"
                 quality={70}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="icono de desarrollo"
@@ -44,7 +44,7 @@ export default class Servicios extends Component {
           <div className="col-3">
             <Box title="desarrollo">
               <StaticImage
-                src="../images/icons/desarrollo.svg"
+                src="../images/gatsby-astronaut.png"
                 objectFit="contain"
                 quality={70}
                 formats={["AUTO", "WEBP", "AVIF"]}
@@ -56,7 +56,7 @@ export default class Servicios extends Component {
           <div className="col-3">
             <Box title="desarrollo">
               <StaticImage
-                src="../images/icons/desarrollo.svg"
+                src="../images/gatsby-astronaut.png"
                 quality={70}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="icono de desarrollo"
