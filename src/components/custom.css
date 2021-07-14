@@ -1,5 +1,7 @@
 :root {
+  --sw-white: #ffffff;
   --sw-gray: #e3e4e5;
+  --sw-dark-gray: #c3c4c5;
   --sw-yellow: #f6ba36;
   --sw-orange: #f65836;
   --sw-dark-pink: #df4b86;
@@ -91,6 +93,32 @@ ol li {
 }
 ul li {
   padding-left: 0;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: var(--sw-dark) !important;
+}
+.slick-prev {
+  left: -5% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: -5% !important;
+  z-index: 1;
+}
+.slick-prev::before {
+  content: "<" !important;
+  font-family: monospace, "omnes-pro" !important;
+  font-size: 50px !important;
+  font-weight: bolder;
+  line-height: 0 !important;
+}
+.slick-next:before {
+  content: ">" !important;
+  font-family: monospace, "omnes-pro" !important;
+  font-size: 50px !important;
+  font-weight: bolder;
+  line-height: 0 !important;
 }
 @media only screen and (max-width: 480px) {
   html {
