@@ -27,10 +27,10 @@ const Header = () => (
       >
         <Link to="/">
           <StaticImage
-            src="../images/gatsby-icon.png"
-            width={100}
+            src="../images/logo-w.png"
+            width={120}
             height={25}
-            quality={95}
+            quality={30}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Logo switchit"
           />
