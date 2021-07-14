@@ -1,0 +1,13 @@
+.title {
+  color: var(--sw-white);
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+.col {
+  color: var(--sw-white);
+}
+.logos {
+  height: 150px;
+}
+@media screen and (max-width: 1444px) {
+}
