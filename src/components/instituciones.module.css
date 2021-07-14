@@ -1,0 +1,35 @@
+.title {
+  color: var(--sw-white);
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+.unorderedList {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+.list {
+  list-style-type: initial;
+  list-style-position: inside;
+  color: var(--sw-white);
+  font-size: calc(1.25rem + 0.5vw);
+}
+.list::marker {
+  margin-right: 10px;
+}
+
+.linkBtn {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.meetBtn {
+  border-radius: 50px;
+  padding: 0 2rem;
+  color: var(--sw-dark-pink);
+  font-size: 1.375rem;
+}
+
+@media screen and (max-width: 1444px) {
+}
