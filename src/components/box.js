@@ -8,7 +8,7 @@ export default class Box extends Component {
     return (
       <div className={boxStyle.box}>
         {children}
-        <h3>{title}</h3>
+        <h4>{title}</h4>
       </div>
     );
   }

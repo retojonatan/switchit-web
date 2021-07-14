@@ -1,11 +1,28 @@
 .box {
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   -webkit-box-shadow: 2px 2px 12px 4px #c2c2c2;
   box-shadow: 2px 2px 12px 4px #c2c2c2;
   text-align: center;
 }
 .box img {
-  height: 150px;
-  width: 150px;
+  margin: 16px 0;
+}
+.box h4 {
+  color: var(--sw-dark-gray);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1444px) {
+  .box {
+    width: 180px;
+    height: 180px;
+  }
+  .box h4 {
+    height: 30px;
+    font-size: 1.25rem;
+  }
 }
