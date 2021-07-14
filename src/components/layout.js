@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || ``} />
+      <Header siteTitle={data.site.siteMetadata?.title || `Switchit Website`} />
       <div>
         <main>{children}</main>
       </div>
