@@ -18,3 +18,17 @@
 .meetBtn:hover {
   background-color: var(--sw-green);
 }
+
+@media screen and (max-width: 1444px) {
+  .paragraph {
+    margin-top: 0.5rem;
+    font-size: calc(0.875rem + 0.5vw);
+  }
+  .meetBtn {
+    margin: 1rem auto;
+    padding: 0.25rem 0.5rem;
+  }
+  .meetBtn a {
+    font-size: calc(1rem + 0.5vw);
+  }
+}
