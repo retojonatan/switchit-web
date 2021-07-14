@@ -1,0 +1,31 @@
+.title {
+  color: var(--sw-green);
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.names {
+  color: var(--sw-green);
+  margin-top: 0.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+.description {
+  color: var(--sw-dark-gray);
+  text-align: center;
+}
+.circle {
+  display: flex;
+  border-radius: 50%;
+  margin: auto;
+  width: 230px;
+  height: 230px;
+  -webkit-box-shadow: 2px 2px 12px 4px #c2c2c2;
+  box-shadow: 2px 2px 12px 4px #c2c2c2;
+  text-align: center;
+}
+.circle img {
+  margin: 0;
+}
+@media screen and (max-width: 1444px) {
+}
